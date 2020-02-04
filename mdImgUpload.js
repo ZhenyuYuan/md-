@@ -1,3 +1,8 @@
+/*
+    created by 袁振宇
+    2020-02-04
+    editor.md粘贴和拖拽上传图片的脚本文件，兼容ie11
+*/ 
 function initPasteDragImg(Editor){
     var doc = document.getElementById(Editor.id)
     doc.addEventListener('paste', function (event) {
